@@ -1,0 +1,11 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.box {
+    padding: 10px;
+    background-color:rgba(240, 221, 221, 0.281);
+    border-radius: 15px;
+    max-width: 450px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual a sua idade?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section class="box">
+        <div>
+            <p>Ano de Nascimento (4 dígitos):
+                <input type="number" id="TextoAno" placeholder="ex: 1998" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <button onclick="verificar()" >Verificar</button>
+        </div>
+        <div id="resultado">
+            resultado
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
