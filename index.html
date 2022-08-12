@@ -16,7 +16,7 @@
     <section class="box">
         <div>
             <p>Ano de Nascimento (4 dígitos):
-                <input type="number" id="TextoAno" placeholder="ex: 1998" min="0">
+                <input type="number" id="TextoAno" placeholder="ex: 1998" min="1900" value="2001">
             </p>
             <p>Sexo:
                 <input type="radio" name="sexo" id="masc" checked>
@@ -25,10 +25,10 @@
                 <input type="radio" name="sexo" id="fem">
                 <label for="fem">Feminino</label>
             </p>
-            <button onclick="verificar()" >Verificar</button>
+            <button onclick="verificar()">Verificar</button>
         </div>
         <div id="resultado">
-            resultado
+            <p>Por favor, preencha os dados acima para ver o resultado 😎</p>
         </div>
     </section>
     <footer>
